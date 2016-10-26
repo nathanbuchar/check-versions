@@ -1,5 +1,7 @@
 # check-versions
 
+![](/screenshots/screenshot.png)
+
 I can never keep up to date with every single Node, npm, and Git update, so this binary checks your local installations and notifies you if any are out of date so that you can update as soon as possible. Bonus points if it's called every time you open a Terminal window.
 
 
