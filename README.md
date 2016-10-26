@@ -1,6 +1,6 @@
 # check-versions
 
-I can never keep up to date with every single Node and npm update, so this binary checks your local Node and npm versions and notifies you if they're out of date so that you can update as soon as possible. Bonus points if it's called every time you open a Terminal window.
+I can never keep up to date with every single Node, npm, and Git update, so this binary checks your local installations and notifies you if any are out of date so that you can update as soon as possible. Bonus points if it's called every time you open a Terminal window.
 
 
 ***
@@ -26,7 +26,15 @@ I can never keep up to date with every single Node and npm update, so this binar
   $ npm link .
   ```
 
-4. Add `check-versions` to either your `.bashrc` or `.zshrc` files.
+## Usage
+
+* You can run the `check-versions` binary at any time.
+
+  ```bash
+  $ check-versions
+  ```
+
+* You can add `check-versions` to either your `.bashrc` or `.zshrc` files so that it runs every time you open a new Terminal window.
 
   * For `.bashrc`
 
