@@ -41,13 +41,13 @@ I can never keep up to date with every single Node, npm, and Git update, so this
   * For `.bashrc`
 
     ```bash
-    $ echo '\n# Checks Node and npm versions\ncheck-versions' >> ~/.bashrc
+    $ echo '\n# Checks Node, npm, and Git versions\ncheck-versions' >> ~/.bashrc
     ```
 
   * For `.zshrc`
 
     ```bash
-    $ echo '\n# Checks Node and npm versions\ncheck-versions' >> ~/.zshrc
+    $ echo '\n# Checks Node, npm, and Git versions\ncheck-versions' >> ~/.zshrc
     ```
 
 ## License
