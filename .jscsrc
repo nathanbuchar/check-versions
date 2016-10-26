@@ -3,7 +3,33 @@
   "disallowDanglingUnderscores": false,
   "disallowEmptyBlocks": false,
   "disallowTrailingComma": true,
-  "requireTrailingComma": false,
+  "disallowParenthesesAroundArrowParam": true,
+  "disallowVar": true,
+  "requireCurlyBraces": true,
+  "requireEnhancedObjectLiterals": true,
   "requireShorthandArrowFunctions": false,
-  "requirePaddingNewLinesAfterBlocks": false
+  "requireTrailingComma": false,
+  "requireLineFeedAtFileEnd": true,
+  "requirePaddingNewLinesAfterBlocks": false,
+  "requirePaddingNewLinesAfterUseStrict": true,
+  "requireSpaceAfterLineComment": true,
+  "requireUseStrict": true,
+  "requireBlocksOnNewline": {
+    "includeComments": true
+  },
+  "jsDoc": {
+    "checkAnnotations": true,
+    "checkParamExistence": true,
+    "checkParamNames": true,
+    "checkRedundantAccess": "enforceLeadingUnderscore",
+    "checkRedundantParams": true,
+    "checkRedundantReturns": true,
+    "checkReturnTypes": true,
+    "checkTypes": true,
+    "requireDescriptionCompleteSentence": true,
+    "requireHyphenBeforeDescription": true,
+    "requireNewlineAfterDescription": true,
+    "requireParamTypes": true,
+    "requireReturnTypes": true
+  }
 }
