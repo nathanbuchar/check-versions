@@ -28,6 +28,14 @@ I can never keep up to date with every single Node, npm, and Git update, so this
   $ npm link .
   ```
 
+***OR***
+
+1. Globally install the pseudo-package via npm.
+
+  ```bash
+  $ npm --global install https://github.com/nathanbuchar/check-versions.git
+  ```
+
 ## Usage
 
 * You can run the `check-versions` binary at any time.
